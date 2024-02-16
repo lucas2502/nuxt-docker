@@ -29,7 +29,7 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 ENV NUXT_APP_BASE_URL=/
-# ENV API_BASE_URL=https://api.example.com
+ENV API_BASE_URL=https://api.example2.com
 
 
 RUN apk update && apk upgrade
